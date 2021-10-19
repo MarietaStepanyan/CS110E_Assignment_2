@@ -1,0 +1,8 @@
+let base 
+let height1 
+let width
+let height2 
+if (0.5*base*height1>width*height2) {console.log("The triangle has larger area")
+    
+}
+else {(console.log("The rectangle has larger area"))}
