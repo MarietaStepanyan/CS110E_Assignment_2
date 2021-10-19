@@ -1,0 +1,22 @@
+let a 
+let b 
+let c 
+let D = Math.pow(b,2)-4*a*c
+
+if(a===0) {
+    console.log("x=" + (-1*c)/b)
+}
+else {
+if(D===0) {
+    console.log("x=" + (-1*b)/(2*a))
+}
+
+if(D>0) {
+    console.log("x1=" + (-1*b+Math.sqrt(D))/(2*a))
+    console.log("x2=" + (-1*b-Math.sqrt(D))/(2*a))
+}
+
+if(D<0) {
+    console.log("expression has no real solutions")
+}
+}
